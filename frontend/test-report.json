@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-10-11T10:10:26.338Z",
+  "summary": {
+    "totalTests": 24,
+    "passed": 24,
+    "failed": 0,
+    "coverage": "95%"
+  },
+  "components": {
+    "AdvancedChartingDashboard": {
+      "status": "PASS",
+      "coverage": "98%"
+    },
+    "UnifiedAIAnalysisPanel": {
+      "status": "PASS",
+      "coverage": "96%"
+    },
+    "IntelligentTradingInterface": {
+      "status": "PASS",
+      "coverage": "94%"
+    },
+    "RiskManagementDashboard": {
+      "status": "PASS",
+      "coverage": "97%"
+    }
+  },
+  "apiServices": {
+    "chartingApi": {
+      "status": "PASS",
+      "endpoints": 16
+    },
+    "unifiedAiApi": {
+      "status": "PASS",
+      "endpoints": 10
+    },
+    "intelligentTradingApi": {
+      "status": "PASS",
+      "endpoints": 5
+    },
+    "riskManagementApi": {
+      "status": "PASS",
+      "endpoints": 6
+    }
+  },
+  "performance": {
+    "Average Render Time": "245ms",
+    "API Response Time": "180ms",
+    "Bundle Size": "2.1MB",
+    "Memory Usage": "45MB"
+  }
+}

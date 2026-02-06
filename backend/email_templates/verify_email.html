@@ -1,0 +1,18 @@
+{% set subject = "Verify your email" %}
+{% set app_name = app_name or "Trader AI" %}
+{% set year = year or 2025 %}
+{% set verify_url = verify_url %}
+{% set user_name = user_name or "Trader" %}
+
+{% set body %}
+  <p>Hi {{ user_name }},</p>
+  <p>Thanks for signing up with <strong>{{ app_name }}</strong>! Please verify your email address to activate your account.</p>
+  <p>
+    <a class="btn" href="{{ verify_url }}" target="_blank">Verify Email</a>
+  </p>
+  <p class="muted">This link will expire in {{ expires_in_minutes }} minutes.</p>
+{% endset %}
+
+{% include "backend/email_templates/base.html" %}
+
+

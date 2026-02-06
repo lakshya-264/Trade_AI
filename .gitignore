@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Database
+*.db
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# ML models (optional – comment if you WANT to push)
+trained_models/
+models/
+
+# OS
+.DS_Store
